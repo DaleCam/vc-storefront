@@ -232,7 +232,7 @@ namespace VirtoCommerce.Storefront
             container.RegisterInstance<ILiquidThemeEngine>(shopifyLiquidEngine);
 
             //Register liquid engine
-            ViewEngines.Engines.Add(new DotLiquidThemedViewEngine(shopifyLiquidEngine));
+            //ViewEngines.Engines.Add(new DotLiquidThemedViewEngine(shopifyLiquidEngine));
 
             // Shopify model binders convert Shopify form fields with bad names to VirtoCommerce model properties.
             container.RegisterType<IModelBinderProvider, ShopifyModelBinderProvider>("shopify");
