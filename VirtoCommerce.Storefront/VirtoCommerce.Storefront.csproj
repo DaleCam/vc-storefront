@@ -570,7 +570,7 @@
     <Content Include="App_Data\Themes\default\assets\icons.ttf" />
     <Content Include="App_Data\Themes\default\assets\icons.woff" />
     <Content Include="App_Data\Themes\default\assets\shop.js.liquid" />
-    <Content Include="App_Data\Themes\default\assets\style.css.liquid" />
+    <Content Include="App_Data\Themes\default\assets\style.css" />
     <Content Include="App_Data\Themes\default\config\settings_data.json" />
     <Content Include="App_Data\Themes\default\layout\theme.liquid">
       <SubType>Designer</SubType>
@@ -676,6 +676,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Common\NoStore.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\StorefrontHome\Index.cshtml" />
+    <Content Include="Views\Shared\Collection.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
